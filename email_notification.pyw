@@ -105,7 +105,7 @@ while True:
     mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Atharva@28",   #change according to the db configuration
+    password="",   #change according to the db configuration
     database="pricetracker"
     )
     mycursor = mydb.cursor()
@@ -113,7 +113,7 @@ while True:
     SMTP_SERVER = "smtp.gmail.com"
     PORT = 587
     EMAIL_ID = "atharvalonhari@gmail.com"   #change according to the mail config and APP password
-    PASSWORD = "illetnfwvszuyzsf"
+    PASSWORD = ""
 
     server = SMTP(SMTP_SERVER, PORT)
     server.starttls()
