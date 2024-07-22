@@ -112,7 +112,7 @@ while True:
 
     SMTP_SERVER = "smtp.gmail.com"
     PORT = 587
-    EMAIL_ID = "atharvalonhari@gmail.com"   #change according to the mail config and APP password
+    EMAIL_ID = ""   #change according to the mail config and APP password
     PASSWORD = ""
 
     server = SMTP(SMTP_SERVER, PORT)
