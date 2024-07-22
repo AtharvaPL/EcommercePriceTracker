@@ -6,7 +6,7 @@ import re
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="Atharva@28",
+  password="",
   database="pricetracker"
 )
 
