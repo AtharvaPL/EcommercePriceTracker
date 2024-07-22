@@ -13,7 +13,7 @@ app.secret_key = os.urandom(24)
 mysql_config = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'DScl@123',
+    'password': '',
     'database': 'pricetracker'
 }
 
